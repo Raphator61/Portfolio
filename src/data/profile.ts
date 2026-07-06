@@ -10,11 +10,15 @@ export const profile = {
   photo: "/profile.jpg",
 };
 
-export const about = `Passionné d'informatique depuis l'enfance, je poursuis aujourd'hui un BTS CIEL
-(Cybersécurité, Informatique, Réseaux et Électronique) à PROMEO Compiègne, après un
-baccalauréat général spécialité NSI et SES. Je recherche une entreprise pour m'accompagner
-pendant un diplôme d'ingénieur en 3 ans, où je pourrai mettre en pratique mes compétences en
-réseaux, systèmes et cybersécurité sur des projets concrets.`;
+export const about = `Depuis aussi loin que je m'en souvienne, l'informatique fait partie de mon quotidien. Ce qui a commencé par une simple curiosité est rapidement devenu une véritable passion, puis un projet de carrière. J'ai toujours aimé comprendre comment fonctionnent les systèmes, résoudre des problèmes et apprendre de nouvelles technologies.
+
+Après un baccalauréat avec la spécialité Numérique et Sciences Informatiques (NSI) obtenu en 2024, j'ai poursuivi mon parcours en BTS CIEL (Cybersécurité, Informatique, Réseaux et Électronique) à PROMEO Compiègne, que j'ai obtenu en juin 2026. Ces deux années m'ont permis d'acquérir de solides bases techniques, mais aussi de confirmer que c'est dans ce domaine que je souhaite évoluer.
+
+En parallèle de mes études, j'ai effectué mon alternance chez Bouygues Énergies & Services. Cette expérience a été particulièrement enrichissante : elle m'a appris à travailler au sein d'une équipe, à gagner en autonomie et à faire face aux réalités du monde professionnel. J'y ai découvert que j'appréciais autant les défis techniques que la satisfaction de trouver des solutions concrètes.
+
+Aujourd'hui, je poursuis cette aventure en intégrant l'ITII de Beauvais en cycle ingénieur Systèmes Intelligents et Sécurisés, toujours en alternance. Mon objectif est simple : continuer à apprendre, développer mon expertise et participer à des projets qui ont un réel impact.
+
+Je suis quelqu'un de curieux, impliqué et toujours prêt à relever de nouveaux défis. J'aime comprendre avant d'agir, apprendre en continu et partager mes connaissances. Si je devais résumer ce qui me motive, je dirais que j'ai simplement envie de construire des solutions utiles, fiables et sécurisées, tout en continuant à évoluer dans un métier qui me passionne.`;
 
 export const formation = [
   {
@@ -45,10 +49,11 @@ export const experience = [
     missions: [
       "Mise en place et administration d'infrastructure réseau sécurisée",
       "Installation et maintenance d'équipements réseau, alarme, vidéosurveillance et postes utilisateurs",
-      "Formation des utilisateurs aux outils vidéo et alarme",
-      "Recherche de solutions personnalisées pour répondre aux besoins clients",
+      "Formations d’utilisateur à l’utilisation d’outils informatique",
+      "Recherche de solutions personnalisées pour répondre aux besoins spécifiques des clients",
+      "Accompagnement et conseil client lors des interventions terrain, en autonomie ou en équipe",
     ],
-    skills: ["Réseaux", "Cybersécurité", "Systèmes embarqués", "Autonomie", "Communication"],
+    skills: ["Réseaux", "Cybersécurité", "Systèmes embarqués", "Autonomie", "Communication", "Cohésion"],
   },
   {
     period: "Juin 2022",
@@ -58,7 +63,7 @@ export const experience = [
       "Maintenance d'équipements informatiques et résolution de problèmes logiciels",
       "Installation et maintenance de matériel informatique chez le client",
     ],
-    skills: ["Maintenance", "Dépannage", "Résolution de problèmes"],
+    skills: ["Maintenance", "Dépannage", "Résolution de problèmes",],
   },
 ];
 
@@ -73,7 +78,7 @@ export const skillGroups = [
   },
   {
     name: "Serveur",
-    items: ["Linux", "Windows", "HTTP", "DNS", "NAS", "NTP", "SMTP", "NVR", "Active Directory"],
+    items: ["Linux", "Windows", "HTTP/HTTPS", "DNS", "NAS", "NTP", "SMTP", "NVR", "Active Directory"],
   },
   {
     name: "Virtualisation",
