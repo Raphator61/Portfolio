@@ -35,3 +35,41 @@ body {
   font-family: "JetBrains Mono", monospace;
   letter-spacing: 0.05em;
 }
+
+.marquee-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-mask-image: linear-gradient(90deg, transparent, black 4%, black 96%, transparent);
+  mask-image: linear-gradient(90deg, transparent, black 4%, black 96%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  gap: 1.25rem;
+  width: max-content;
+  padding: 0 1.5rem;
+  animation: marquee-scroll 48s linear infinite;
+}
+
+.marquee-wrapper:hover .marquee-track,
+.marquee-wrapper:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+  .marquee-wrapper {
+    scroll-snap-type: x proximity;
+  }
+}
